@@ -1,0 +1,107 @@
+[
+  {
+    "id": "CSS131-Medlogic",
+    "name": "Css131 Medlogic",
+    "description": "CSS131 Project : Logic Programming Paradigm",
+    "readme_summary": "CSS131 Project : Logic Programming Paradigm MedLogic \u0e04\u0e37\u0e2d\u0e23\u0e30\u0e1a\u0e1a\u0e27\u0e34\u0e19\u0e34\u0e08\u0e09\u0e31\u0e22\u0e42\u0e23\u0e04\u0e40\u0e1a\u0e37\u0e49\u0e2d\u0e07\u0e15\u0e49\u0e19\u0e08\u0e32\u0e01\u0e2d\u0e32\u0e01\u0e32\u0e23 \u0e42\u0e14\u0e22\u0e43\u0e0a\u0e49\u0e41\u0e19\u0e27\u0e04\u0e34\u0e14 Logic Programming Paradigm \u0e43\u0e19\u0e20\u0e32\u0e29\u0e32 Python \u0e1c\u0e48\u0e32\u0e19\u0e44\u0e25\u0e1a\u0e23\u0e32\u0e23\u0e35\u0e0a\u0e37\u0e48\u0e2d Kanren \u0e41\u0e17\u0e19\u0e17\u0e35\u0e48\u0e08\u0e30\u0e40\u0e02\u0e35\u0e22\u0e19\u0e42\u0e04\u0e49\u0e14\u0e41\u0e1a\u0e1a \"\u0e2a\u0e31\u0e48\u0e07\u0e17\u0e35\u0e25\u0e30\u0e02\u0e31\u0e49\u0e19\" (Imperative) \u0e40\u0e23\u0e32\u0e08\u0e30 \u0e1b\u0e23\u0e30\u0e01\u0e32\u0e28\u0e02\u0e49\u0e2d\u0e40\u0e17\u0e47\u0e08\u0e08\u0e23\u0e34\u0e07 \u0e41\u0e25\u0e49\u0e27\u0e43\u0e2b\u0e49\u0e23\u0e30\u0e1a\u0e1a \u0e2b\u0e32\u0e04\u0e33\u0e15\u0e2d\u0e1a\u0e40\u0e2d\u0e07",
+    "tech_stack": [
+      "Python"
+    ],
+    "tags": [],
+    "stars": 0,
+    "url": "https://github.com/VWINDQ/CSS131-Medlogic",
+    "live_url": null,
+    "last_updated": "2026-05-03T10:21:24Z",
+    "highlight": false
+  },
+  {
+    "id": "CSS114-Project",
+    "name": "Css114 Project",
+    "description": "Gauss Elimination with Pivoting",
+    "readme_summary": "\u0e42\u0e1b\u0e23\u0e40\u0e08\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e23\u0e27\u0e1a\u0e23\u0e27\u0e21 4 \u0e27\u0e34\u0e18\u0e35\u0e2b\u0e25\u0e31\u0e01\u0e43\u0e19\u0e01\u0e32\u0e23\u0e41\u0e01\u0e49\u0e1b\u0e31\u0e0d\u0e2b\u0e32\u0e1e\u0e35\u0e0a\u0e04\u0e13\u0e34\u0e15\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e2a\u0e49\u0e19 (Linear Algebra) \u0e42\u0e14\u0e22\u0e21\u0e35\u0e2b\u0e25\u0e31\u0e01\u0e01\u0e32\u0e23\u0e17\u0e33\u0e07\u0e32\u0e19\u0e14\u0e31\u0e07\u0e19\u0e35\u0e49: \u0e43\u0e0a\u0e49\u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e01\u0e33\u0e08\u0e31\u0e14\u0e15\u0e31\u0e27\u0e41\u0e1b\u0e23 (Elimination) \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e40\u0e21\u0e17\u0e23\u0e34\u0e01\u0e0b\u0e4c\u0e43\u0e2b\u0e49\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e23\u0e39\u0e1b\u0e41\u0e1a\u0e1a Row Echelon Form (\u0e2a\u0e32\u0e21\u0e40\u0e2b\u0e25\u0e35\u0e48\u0e22\u0e21\u0e1a\u0e19) Step 1: \u0e43\u0e0a\u0e49 Row Operations \u0e01\u0e33\u0e08\u0e31\u0e14\u0e15\u0e31\u0e27\u0e40\u0e25\u0e02\u0e43\u0e15\u0e49\u0e40\u0e2a\u0e49\u0e19\u0e17\u0e41\u0e22\u0e07\u0e21\u0e38\u0e21\u0e43\u0e2b\u0e49\u0e40\u0e1b\u0e47\u0e19 0 \u0e17\u0e31\u0e49\u0e07\u0e2b\u0e21\u0e14 Step 2: \u0e08\u0e30\u0e44\u0e14\u0e49\u0e2a\u0e21\u0e01\u0e32\u0e23\u0e43\u0e19\u0e23\u0e39\u0e1b\u0e2a...",
+    "tech_stack": [
+      "C"
+    ],
+    "tags": [],
+    "stars": 0,
+    "url": "https://github.com/VWINDQ/CSS114-Project",
+    "live_url": null,
+    "last_updated": "2026-02-27T08:31:10Z",
+    "highlight": false
+  },
+  {
+    "id": "VWINDQ",
+    "name": "Vwindq",
+    "description": "My Profile",
+    "readme_summary": "Hi there \ud83d\udc4b, I'm Phattaraphon \ud83e\udd16 Robotics & AI Developer \u2022 \ud83d\ude80 ROS | Python | C | C++ \u2022 \ud83d\udc68\u200d\ud83c\udf93 Student | \ud83d\udca1 Maker --- - \ud83c\udf31 Studying at King Mongkut's University of Technology Thonburi, Department of Applied Computer Science - \ud83d\udcac Ask me about ROS, Python, and computer vision - \ud83d\udceb How to reach me: ppoom.stp -...",
+    "tech_stack": [],
+    "tags": [],
+    "stars": 1,
+    "url": "https://github.com/VWINDQ/VWINDQ",
+    "live_url": null,
+    "last_updated": "2026-02-12T07:22:43Z",
+    "highlight": true
+  },
+  {
+    "id": "CSS113-Project",
+    "name": "Css113 Project",
+    "description": "Depth first search (DFS) / Breadth - first search",
+    "readme_summary": "\u0e42\u0e1b\u0e23\u0e40\u0e08\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e47\u0e1a\u0e41\u0e2d\u0e1b\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a \u0e08\u0e33\u0e25\u0e2d\u0e07\u0e41\u0e25\u0e30\u0e41\u0e2a\u0e14\u0e07\u0e20\u0e32\u0e1e\u0e01\u0e32\u0e23\u0e17\u0e33\u0e07\u0e32\u0e19\u0e02\u0e2d\u0e07\u0e2d\u0e31\u0e25\u0e01\u0e2d\u0e23\u0e34\u0e17\u0e36\u0e21\u0e1a\u0e19\u0e01\u0e23\u0e32\u0e1f \u0e41\u0e1a\u0e1a\u0e17\u0e35\u0e25\u0e30\u0e02\u0e31\u0e49\u0e19\u0e15\u0e2d\u0e19 \u0e43\u0e0a\u0e49\u0e40\u0e17\u0e04\u0e42\u0e19\u0e42\u0e25\u0e22\u0e35 Streamlit + NetworkX + streamlit-agraph \u0e40\u0e2b\u0e21\u0e32\u0e30\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e43\u0e0a\u0e49\u0e2a\u0e2d\u0e19\u0e2b\u0e23\u0e37\u0e2d\u0e43\u0e0a\u0e49\u0e40\u0e23\u0e35\u0e22\u0e19\u0e27\u0e34\u0e0a\u0e32\u0e42\u0e04\u0e23\u0e07\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25 (Data Structures) / Discrete Mathematics / Algorithm --- \u0e21\u0e35\u0e01\u0e23\u0e32\u0e1f\u0e15\u0e31\u0e27\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e2b\u0e25\u0e32\u0e22\u0e23\u0e39\u0e1b\u0e41\u0e1a\u0e1a \u0e40\u0e0a\u0e48\u0e19 - 3x3 Grid - Hexagon ...",
+    "tech_stack": [
+      "Python"
+    ],
+    "tags": [],
+    "stars": 0,
+    "url": "https://github.com/VWINDQ/CSS113-Project",
+    "live_url": null,
+    "last_updated": "2025-11-28T07:34:33Z",
+    "highlight": false
+  },
+  {
+    "id": "YOLOv9-home",
+    "name": "Yolov9 Home",
+    "description": "YOLOv9's Team Robocup Malaysia open 2024 @Home Edu",
+    "readme_summary": "YOLOv9's Team | Robocup Malaysia open 2024 @Home Education This project is developed by YOLOv9's Team Robocup Malaysia for the 2024 @Home Education competition, aiming to use Turtlebot2 robots equipped with ROS, Kinect camera and YDLidar to perform various tasks within the home. Check YDLidar sen...",
+    "tech_stack": [
+      "Python",
+      "CMake",
+      "C++"
+    ],
+    "tags": [],
+    "stars": 1,
+    "url": "https://github.com/VWINDQ/YOLOv9-home",
+    "live_url": null,
+    "last_updated": "2025-06-08T16:04:20Z",
+    "highlight": true
+  },
+  {
+    "id": "nokkhumlee",
+    "name": "Nokkhumlee",
+    "description": "My python practice",
+    "readme_summary": "My python practice",
+    "tech_stack": [
+      "Python"
+    ],
+    "tags": [],
+    "stars": 1,
+    "url": "https://github.com/VWINDQ/nokkhumlee",
+    "live_url": "",
+    "last_updated": "2025-05-23T15:26:50Z",
+    "highlight": true
+  },
+  {
+    "id": "Custom-search-engine-with-Exa",
+    "name": "Custom Search Engine With Exa",
+    "description": "",
+    "readme_summary": "",
+    "tech_stack": [
+      "Python"
+    ],
+    "tags": [],
+    "stars": 0,
+    "url": "https://github.com/VWINDQ/Custom-search-engine-with-Exa",
+    "live_url": null,
+    "last_updated": "2025-05-17T17:50:27Z",
+    "highlight": false
+  }
+]
