@@ -5,9 +5,9 @@ import profile from '../data/profile.json';
 
 const Contact = () => {
   const socials = [
-    { name: 'Code', icon: <Code />, url: profile.github_url, color: 'hover:text-white' },
-    { name: 'Globe', icon: <Globe />, url: '#', color: 'hover:text-blue-400' },
-    { name: 'X', icon: <X />, url: '#', color: 'hover:text-sky-400' },
+    { name: 'GitHub', icon: <Code />, url: profile.github_url, color: 'hover:text-white' },
+    { name: 'LinkedIn', icon: <Globe />, url: profile.linkedin_url, color: 'hover:text-blue-400' },
+    { name: 'X', icon: <X />, url: profile.twitter_url, color: 'hover:text-sky-400' },
   ];
 
   return (
@@ -25,7 +25,7 @@ const Contact = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             <motion.a
-              href="mailto:your@email.com"
+              href={`mailto:${profile.email}`}
               whileHover={{ y: -5 }}
               className="p-8 rounded-3xl glass-morphism border border-white/5 flex flex-col items-center group transition-all"
             >
@@ -33,7 +33,7 @@ const Contact = () => {
                 <Mail size={32} />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Email Me</h3>
-              <p className="text-slate-500 text-sm">your@email.com</p>
+              <p className="text-slate-500 text-sm">{profile.email}</p>
             </motion.a>
 
             <motion.div
@@ -52,6 +52,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`text-slate-400 transition-colors ${social.color}`}
+                    aria-label={`Visit my ${social.name}`}
                   >
                     {social.icon}
                   </a>
@@ -61,7 +62,7 @@ const Contact = () => {
           </div>
 
           <motion.a
-            href="mailto:your@email.com"
+            href={`mailto:${profile.email}`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block px-12 py-5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-full shadow-2xl shadow-blue-600/20"

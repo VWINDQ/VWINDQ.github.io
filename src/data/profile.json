@@ -2,8 +2,11 @@
   "username": "VWINDQ",
   "github_url": "https://github.com/VWINDQ",
   "avatar_url": "https://github.com/VWINDQ.png",
-  "bio": null,
-  "location": null,
+  "bio": "A developer passionate about clean code, robotics, and open-source collaboration.",
+  "location": "Thailand",
+  "email": "poomsuttiphan@gmail.com",
+  "linkedin_url": "https://linkedin.com/in/phattaraphon-s",
+  "twitter_url": "https://x.com/vwindq",
   "total_repos": 7,
   "top_languages": [
     "Python",
