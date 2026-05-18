@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Mail, Globe, X, MessageSquare } from 'lucide-react';
+import { Code, Mail, Globe, Instagram, MessageSquare } from 'lucide-react';
 import profile from '../data/profile.json';
 
 const Contact = () => {
   const socials = [
     { name: 'GitHub', icon: <Code />, url: profile.github_url, color: 'hover:text-white' },
     { name: 'LinkedIn', icon: <Globe />, url: profile.linkedin_url, color: 'hover:text-blue-400' },
-    { name: 'X', icon: <X />, url: profile.twitter_url, color: 'hover:text-sky-400' },
+    { name: 'Instagram', icon: <Instagram />, url: profile.instagram_url, color: 'hover:text-pink-500' },
   ];
 
   return (
