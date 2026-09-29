@@ -1,49 +1,25 @@
-# Portfolio - VWINDQ
+# POOM / Digital Dossier
 
-[![Deploy Portfolio](https://github.com/VWINDQ/VWINDQ.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/VWINDQ/VWINDQ.github.io/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://VWINDQ.github.io)
+A static personal portfolio for Phattaraphon (Poom), an Applied Computer Science student at KMUTT. It uses HTML, CSS, and vanilla JavaScript. There is no build step or backend.
 
-Personal developer portfolio showcasing open-source projects, robotics engineering, and full-stack development.
+## Run locally
 
-## 🚀 Live URL
-Check out the live site here: [https://VWINDQ.github.io](https://VWINDQ.github.io)
+From this directory, run `python3 -m http.server 8000` and open `http://localhost:8000`. You can also open `index.html` directly, although clipboard access may require a local server or HTTPS.
 
-## 🛠️ Tech Stack
-![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer-Motion-black?style=for-the-badge&logo=framer)
-![Lucide Icons](https://img.shields.io/badge/Lucide-Icons-pink?style=for-the-badge)
+## Customize
 
-## 📦 Features
-- **Dynamic Project Discovery:** Automatically syncs with GitHub repositories.
-- **Glassmorphism Design:** Modern, clean UI with blur effects and dark mode.
-- **Responsive Layout:** Optimized for mobile, tablet, and desktop viewports.
-- **Animations:** Smooth scroll and interaction animations powered by Framer Motion.
-- **Performance Optimized:** GPU-composited animations and lazy-loaded assets.
+- Edit chapter copy, links, and metadata in `index.html`.
+- Edit the six project records and their illustrative preview markup in `js/main.js` (`PROJECTS`). Replace `TODO` only with verified facts, links, and screenshots.
+- Edit the color system and typography at the top of `css/style.css`.
+- Add a résumé to `assets/` and replace the `Résumé / TODO` text with a link.
+- Update the canonical and Open Graph URLs in `index.html` if the public URL changes.
 
-## 💻 Local Development
+The first three project descriptions and the CTF/database concepts come from the supplied brief. Graph Lab, MedLogic, and YOLOv9 @Home also use repository data from the previous portfolio. All project visuals on this page are illustrations, not product screenshots.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/VWINDQ/VWINDQ.github.io.git
-   cd VWINDQ.github.io
-   ```
+## Deploy to GitHub Pages
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+The workflow in `.github/workflows/deploy.yml` publishes the repository root on every push to `main`. In **Settings → Pages**, set the publishing source to **GitHub Actions**. Relative asset paths support both `username.github.io` and `username.github.io/repository-name/`.
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+## Interactions
 
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
-
-## 📄 License
-MIT © [VWINDQ](https://github.com/VWINDQ)
+Click a project row to expand its case notes. On desktop, hovering a row shows a floating preview. The Graph Lab case contains a small, separate algorithm demo. `Ctrl+K` or `⌘K` opens the command palette. Theme preference is saved locally. Motion respects `prefers-reduced-motion`.
